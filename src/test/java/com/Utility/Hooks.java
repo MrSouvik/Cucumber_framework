@@ -32,6 +32,7 @@ public class Hooks {
 		else {
 			Assert.fail("Failing the execution as you pass the incorrect browser ! Note this framework only accept chrome,edge and firefox browser");
 		}
+		driver.manage().window().maximize();
 		Utilities.driver = driver;
 	}
 	
